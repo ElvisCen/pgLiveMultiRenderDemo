@@ -8,13 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		79BDC9A81F4B2C3F007829CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BDC9A71F4B2C3F007829CE /* main.m */; };
-		79BDC9AB1F4B2C3F007829CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BDC9AA1F4B2C3F007829CE /* AppDelegate.m */; };
+		79BDC9AB1F4B2C3F007829CE /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79BDC9AA1F4B2C3F007829CE /* AppDelegate.mm */; };
 		79BDC9AE1F4B2C3F007829CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BDC9AD1F4B2C3F007829CE /* ViewController.m */; };
 		79BDC9B11F4B2C3F007829CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BDC9AF1F4B2C3F007829CE /* Main.storyboard */; };
 		79BDC9B31F4B2C3F007829CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BDC9B21F4B2C3F007829CE /* Assets.xcassets */; };
 		79BDC9B61F4B2C3F007829CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BDC9B41F4B2C3F007829CE /* LaunchScreen.storyboard */; };
 		79BDC9C11F4B2C3F007829CE /* pgLiveMultiRenderDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BDC9C01F4B2C3F007829CE /* pgLiveMultiRenderDemoTests.m */; };
 		79BDC9CC1F4B2C3F007829CE /* pgLiveMultiRenderDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BDC9CB1F4B2C3F007829CE /* pgLiveMultiRenderDemoUITests.m */; };
+		79BDC9DC1F4B2C6B007829CE /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BDC9DA1F4B2C6B007829CE /* VideoViewController.m */; };
+		79BDC9DD1F4B2C6B007829CE /* VideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BDC9DB1F4B2C6B007829CE /* VideoViewController.xib */; };
+		79BDC9F61F4B2F64007829CE /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9E61F4B2F64007829CE /* libavcodec.a */; };
+		79BDC9F71F4B2F65007829CE /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9E71F4B2F64007829CE /* libavfilter.a */; };
+		79BDC9F81F4B2F65007829CE /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9E81F4B2F64007829CE /* libavformat.a */; };
+		79BDC9F91F4B2F65007829CE /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9E91F4B2F64007829CE /* libavutil.a */; };
+		79BDC9FA1F4B2F65007829CE /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9EA1F4B2F64007829CE /* libcrypto.a */; };
+		79BDC9FB1F4B2F65007829CE /* libfaac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9EB1F4B2F64007829CE /* libfaac.a */; };
+		79BDC9FC1F4B2F65007829CE /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9EC1F4B2F64007829CE /* libjpeg.a */; };
+		79BDC9FD1F4B2F65007829CE /* liblivemulti_ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9ED1F4B2F64007829CE /* liblivemulti_ios.a */; };
+		79BDC9FE1F4B2F65007829CE /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9EE1F4B2F64007829CE /* libpng.a */; };
+		79BDC9FF1F4B2F65007829CE /* libpostproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9EF1F4B2F64007829CE /* libpostproc.a */; };
+		79BDCA001F4B2F65007829CE /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9F01F4B2F64007829CE /* libswresample.a */; };
+		79BDCA011F4B2F65007829CE /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9F11F4B2F64007829CE /* libswscale.a */; };
+		79BDCA021F4B2F65007829CE /* libvpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9F21F4B2F64007829CE /* libvpx.a */; };
+		79BDCA031F4B2F65007829CE /* libwebrtc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9F31F4B2F64007829CE /* libwebrtc.a */; };
+		79BDCA041F4B2F65007829CE /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9F41F4B2F64007829CE /* libx264.a */; };
+		79BDCA051F4B2F65007829CE /* libx265.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDC9F51F4B2F64007829CE /* libx265.a */; };
+		79BDCA081F4B3184007829CE /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA071F4B3184007829CE /* libiconv.tbd */; };
+		79BDCA0A1F4B31BF007829CE /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA091F4B31BF007829CE /* libz.1.2.5.tbd */; };
+		79BDCA0C1F4B31D8007829CE /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA0B1F4B31D8007829CE /* libresolv.tbd */; };
+		79BDCA0E1F4B31E8007829CE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA0D1F4B31E8007829CE /* AudioToolbox.framework */; };
+		79BDCA101F4B31EF007829CE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA0F1F4B31EF007829CE /* AVFoundation.framework */; };
+		79BDCA121F4B31FA007829CE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA111F4B31FA007829CE /* CoreMedia.framework */; };
+		79BDCA141F4B3207007829CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA131F4B3207007829CE /* CoreGraphics.framework */; };
+		79BDCA161F4B3210007829CE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA151F4B3210007829CE /* AdSupport.framework */; };
+		79BDCA181F4B3220007829CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA171F4B3220007829CE /* UIKit.framework */; };
+		79BDCA1A1F4B3231007829CE /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA191F4B3231007829CE /* CoreAudioKit.framework */; };
+		79BDCA1C1F4B3239007829CE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BDCA1B1F4B3239007829CE /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +67,7 @@
 		79BDC9A31F4B2C3F007829CE /* pgLiveMultiRenderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pgLiveMultiRenderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BDC9A71F4B2C3F007829CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79BDC9A91F4B2C3F007829CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		79BDC9AA1F4B2C3F007829CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79BDC9AA1F4B2C3F007829CE /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		79BDC9AC1F4B2C3F007829CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		79BDC9AD1F4B2C3F007829CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		79BDC9B01F4B2C3F007829CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +80,41 @@
 		79BDC9C71F4B2C3F007829CE /* pgLiveMultiRenderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pgLiveMultiRenderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BDC9CB1F4B2C3F007829CE /* pgLiveMultiRenderDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pgLiveMultiRenderDemoUITests.m; sourceTree = "<group>"; };
 		79BDC9CD1F4B2C3F007829CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BDC9D91F4B2C6B007829CE /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		79BDC9DA1F4B2C6B007829CE /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		79BDC9DB1F4B2C6B007829CE /* VideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewController.xib; sourceTree = "<group>"; };
+		79BDC9E01F4B2F64007829CE /* pgIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pgIOS.h; sourceTree = "<group>"; };
+		79BDC9E11F4B2F64007829CE /* pgLibLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pgLibLive.h; sourceTree = "<group>"; };
+		79BDC9E21F4B2F64007829CE /* pgLibLiveMultiError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pgLibLiveMultiError.h; sourceTree = "<group>"; };
+		79BDC9E31F4B2F64007829CE /* pgLibLiveMultiRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pgLibLiveMultiRender.h; sourceTree = "<group>"; };
+		79BDC9E41F4B2F64007829CE /* pgLibLiveMultiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pgLibLiveMultiView.h; sourceTree = "<group>"; };
+		79BDC9E61F4B2F64007829CE /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
+		79BDC9E71F4B2F64007829CE /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavfilter.a; sourceTree = "<group>"; };
+		79BDC9E81F4B2F64007829CE /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
+		79BDC9E91F4B2F64007829CE /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
+		79BDC9EA1F4B2F64007829CE /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		79BDC9EB1F4B2F64007829CE /* libfaac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfaac.a; sourceTree = "<group>"; };
+		79BDC9EC1F4B2F64007829CE /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		79BDC9ED1F4B2F64007829CE /* liblivemulti_ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = liblivemulti_ios.a; sourceTree = "<group>"; };
+		79BDC9EE1F4B2F64007829CE /* libpng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpng.a; sourceTree = "<group>"; };
+		79BDC9EF1F4B2F64007829CE /* libpostproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpostproc.a; sourceTree = "<group>"; };
+		79BDC9F01F4B2F64007829CE /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
+		79BDC9F11F4B2F64007829CE /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		79BDC9F21F4B2F64007829CE /* libvpx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvpx.a; sourceTree = "<group>"; };
+		79BDC9F31F4B2F64007829CE /* libwebrtc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebrtc.a; sourceTree = "<group>"; };
+		79BDC9F41F4B2F64007829CE /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx264.a; sourceTree = "<group>"; };
+		79BDC9F51F4B2F64007829CE /* libx265.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libx265.a; sourceTree = "<group>"; };
+		79BDCA071F4B3184007829CE /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		79BDCA091F4B31BF007829CE /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		79BDCA0B1F4B31D8007829CE /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		79BDCA0D1F4B31E8007829CE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		79BDCA0F1F4B31EF007829CE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		79BDCA111F4B31FA007829CE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		79BDCA131F4B3207007829CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79BDCA151F4B3210007829CE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		79BDCA171F4B3220007829CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79BDCA191F4B3231007829CE /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		79BDCA1B1F4B3239007829CE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +122,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BDCA1C1F4B3239007829CE /* CoreVideo.framework in Frameworks */,
+				79BDCA1A1F4B3231007829CE /* CoreAudioKit.framework in Frameworks */,
+				79BDCA181F4B3220007829CE /* UIKit.framework in Frameworks */,
+				79BDCA161F4B3210007829CE /* AdSupport.framework in Frameworks */,
+				79BDCA141F4B3207007829CE /* CoreGraphics.framework in Frameworks */,
+				79BDCA121F4B31FA007829CE /* CoreMedia.framework in Frameworks */,
+				79BDCA101F4B31EF007829CE /* AVFoundation.framework in Frameworks */,
+				79BDCA0E1F4B31E8007829CE /* AudioToolbox.framework in Frameworks */,
+				79BDCA0C1F4B31D8007829CE /* libresolv.tbd in Frameworks */,
+				79BDCA0A1F4B31BF007829CE /* libz.1.2.5.tbd in Frameworks */,
+				79BDCA081F4B3184007829CE /* libiconv.tbd in Frameworks */,
+				79BDCA011F4B2F65007829CE /* libswscale.a in Frameworks */,
+				79BDC9F81F4B2F65007829CE /* libavformat.a in Frameworks */,
+				79BDCA041F4B2F65007829CE /* libx264.a in Frameworks */,
+				79BDC9FA1F4B2F65007829CE /* libcrypto.a in Frameworks */,
+				79BDCA051F4B2F65007829CE /* libx265.a in Frameworks */,
+				79BDC9FC1F4B2F65007829CE /* libjpeg.a in Frameworks */,
+				79BDC9FB1F4B2F65007829CE /* libfaac.a in Frameworks */,
+				79BDCA021F4B2F65007829CE /* libvpx.a in Frameworks */,
+				79BDCA031F4B2F65007829CE /* libwebrtc.a in Frameworks */,
+				79BDC9F71F4B2F65007829CE /* libavfilter.a in Frameworks */,
+				79BDC9FE1F4B2F65007829CE /* libpng.a in Frameworks */,
+				79BDC9FD1F4B2F65007829CE /* liblivemulti_ios.a in Frameworks */,
+				79BDC9FF1F4B2F65007829CE /* libpostproc.a in Frameworks */,
+				79BDC9F91F4B2F65007829CE /* libavutil.a in Frameworks */,
+				79BDCA001F4B2F65007829CE /* libswresample.a in Frameworks */,
+				79BDC9F61F4B2F64007829CE /* libavcodec.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +176,7 @@
 				79BDC9BF1F4B2C3F007829CE /* pgLiveMultiRenderDemoTests */,
 				79BDC9CA1F4B2C3F007829CE /* pgLiveMultiRenderDemoUITests */,
 				79BDC9A41F4B2C3F007829CE /* Products */,
+				79BDCA061F4B3184007829CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +193,14 @@
 		79BDC9A51F4B2C3F007829CE /* pgLiveMultiRenderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				79BDC9DE1F4B2F64007829CE /* pgLiveSDK */,
 				79BDC9A91F4B2C3F007829CE /* AppDelegate.h */,
-				79BDC9AA1F4B2C3F007829CE /* AppDelegate.m */,
+				79BDC9AA1F4B2C3F007829CE /* AppDelegate.mm */,
 				79BDC9AC1F4B2C3F007829CE /* ViewController.h */,
 				79BDC9AD1F4B2C3F007829CE /* ViewController.m */,
+				79BDC9D91F4B2C6B007829CE /* VideoViewController.h */,
+				79BDC9DA1F4B2C6B007829CE /* VideoViewController.m */,
+				79BDC9DB1F4B2C6B007829CE /* VideoViewController.xib */,
 				79BDC9AF1F4B2C3F007829CE /* Main.storyboard */,
 				79BDC9B21F4B2C3F007829CE /* Assets.xcassets */,
 				79BDC9B41F4B2C3F007829CE /* LaunchScreen.storyboard */,
@@ -138,6 +234,68 @@
 				79BDC9CD1F4B2C3F007829CE /* Info.plist */,
 			);
 			path = pgLiveMultiRenderDemoUITests;
+			sourceTree = "<group>";
+		};
+		79BDC9DE1F4B2F64007829CE /* pgLiveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				79BDC9DF1F4B2F64007829CE /* Include */,
+				79BDC9E51F4B2F64007829CE /* Lib */,
+			);
+			path = pgLiveSDK;
+			sourceTree = "<group>";
+		};
+		79BDC9DF1F4B2F64007829CE /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				79BDC9E01F4B2F64007829CE /* pgIOS.h */,
+				79BDC9E11F4B2F64007829CE /* pgLibLive.h */,
+				79BDC9E21F4B2F64007829CE /* pgLibLiveMultiError.h */,
+				79BDC9E31F4B2F64007829CE /* pgLibLiveMultiRender.h */,
+				79BDC9E41F4B2F64007829CE /* pgLibLiveMultiView.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		79BDC9E51F4B2F64007829CE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				79BDC9E61F4B2F64007829CE /* libavcodec.a */,
+				79BDC9E71F4B2F64007829CE /* libavfilter.a */,
+				79BDC9E81F4B2F64007829CE /* libavformat.a */,
+				79BDC9E91F4B2F64007829CE /* libavutil.a */,
+				79BDC9EA1F4B2F64007829CE /* libcrypto.a */,
+				79BDC9EB1F4B2F64007829CE /* libfaac.a */,
+				79BDC9EC1F4B2F64007829CE /* libjpeg.a */,
+				79BDC9ED1F4B2F64007829CE /* liblivemulti_ios.a */,
+				79BDC9EE1F4B2F64007829CE /* libpng.a */,
+				79BDC9EF1F4B2F64007829CE /* libpostproc.a */,
+				79BDC9F01F4B2F64007829CE /* libswresample.a */,
+				79BDC9F11F4B2F64007829CE /* libswscale.a */,
+				79BDC9F21F4B2F64007829CE /* libvpx.a */,
+				79BDC9F31F4B2F64007829CE /* libwebrtc.a */,
+				79BDC9F41F4B2F64007829CE /* libx264.a */,
+				79BDC9F51F4B2F64007829CE /* libx265.a */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		79BDCA061F4B3184007829CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79BDCA1B1F4B3239007829CE /* CoreVideo.framework */,
+				79BDCA191F4B3231007829CE /* CoreAudioKit.framework */,
+				79BDCA171F4B3220007829CE /* UIKit.framework */,
+				79BDCA151F4B3210007829CE /* AdSupport.framework */,
+				79BDCA131F4B3207007829CE /* CoreGraphics.framework */,
+				79BDCA111F4B31FA007829CE /* CoreMedia.framework */,
+				79BDCA0F1F4B31EF007829CE /* AVFoundation.framework */,
+				79BDCA0D1F4B31E8007829CE /* AudioToolbox.framework */,
+				79BDCA0B1F4B31D8007829CE /* libresolv.tbd */,
+				79BDCA091F4B31BF007829CE /* libz.1.2.5.tbd */,
+				79BDCA071F4B3184007829CE /* libiconv.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +406,7 @@
 			files = (
 				79BDC9B61F4B2C3F007829CE /* LaunchScreen.storyboard in Resources */,
 				79BDC9B31F4B2C3F007829CE /* Assets.xcassets in Resources */,
+				79BDC9DD1F4B2C6B007829CE /* VideoViewController.xib in Resources */,
 				79BDC9B11F4B2C3F007829CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +433,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				79BDC9AE1F4B2C3F007829CE /* ViewController.m in Sources */,
-				79BDC9AB1F4B2C3F007829CE /* AppDelegate.m in Sources */,
+				79BDC9AB1F4B2C3F007829CE /* AppDelegate.mm in Sources */,
+				79BDC9DC1F4B2C6B007829CE /* VideoViewController.m in Sources */,
 				79BDC9A81F4B2C3F007829CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,8 +586,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = pgLiveMultiRenderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pgLiveMultiRenderDemo/pgLiveSDK/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xibaolai.pgLiveMultiRenderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -437,8 +602,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = pgLiveMultiRenderDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/pgLiveMultiRenderDemo/pgLiveSDK/Lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xibaolai.pgLiveMultiRenderDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
